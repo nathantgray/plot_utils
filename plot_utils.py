@@ -16,7 +16,7 @@ def ieee_figure(fig: go.Figure, columns: Literal["single", "double"]):
 
     fig.update_xaxes(
         showgrid=True,
-        # gridwidth=1,
+        gridwidth=0.5,
         gridcolor="lightgray",
         minor=dict(showgrid=True),
         mirror=True,
@@ -27,7 +27,7 @@ def ieee_figure(fig: go.Figure, columns: Literal["single", "double"]):
     )
     fig.update_yaxes(
         showgrid=True,
-        # gridwidth=1,
+        gridwidth=0.5,
         gridcolor="lightgray",
         minor=dict(showgrid=True),
         mirror=True,
