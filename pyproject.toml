@@ -1,0 +1,16 @@
+[project]
+name = "plot-utils"
+version = "0.1.0"
+description = "Useful scripts for preparing publication ready plots."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "kaleido>=1.0.0",
+    "pandas>=2.3.1",
+    "plotly>=6.2.0",
+]
+
+[dependency-groups]
+dev = [
+    "plotly-stubs>=0.0.5",
+]
